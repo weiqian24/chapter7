@@ -46,7 +46,7 @@ class MainActivity : ComponentActivity() {
                 Scaffold(
                     Modifier.fillMaxSize()) { innerPadding ->
                     Greeting(
-                        name = "123456",
+                        name = "123",
                         modifier = Modifier.padding(innerPadding)
                     )
                 }
